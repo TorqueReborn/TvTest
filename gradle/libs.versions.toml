@@ -1,12 +1,14 @@
 [versions]
 agp = "8.6.0"
 appcompat = "1.7.0"
+leanbackVersion = "1.2.0-alpha04"
 material = "1.12.0"
 activity = "1.9.2"
 constraintlayout = "2.1.4"
 
 [libraries]
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+leanback = { module = "androidx.leanback:leanback", version.ref = "leanbackVersion" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }

@@ -9,10 +9,9 @@ android {
     defaultConfig {
         applicationId = "com.ghostreborn.tvtest"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
     }
 
     buildTypes {
@@ -31,7 +30,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.leanback)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
